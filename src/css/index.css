@@ -1,0 +1,33 @@
+/* ./src/index.css */
+@tailwind base;
+html {
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: hsl(200, 12%, 90%);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: hsl(200, 12%, 75%);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(200, 8%, 60%);
+  }
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1,
+    h2,
+    h3 {
+      @apply font-bold;
+    }
+    input,
+    button,
+    a {
+      @apply focus:outline-none;
+    }
+  }

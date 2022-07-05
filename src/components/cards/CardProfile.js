@@ -5,34 +5,34 @@ import React from "react";
 export default function CardProfile() {
   return (
     <>
-      <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-16">
+      <div className="relative flex flex-col w-full min-w-0 mt-16 mb-6 break-words bg-white rounded-lg shadow-xl">
         <div className="px-6">
           <div className="flex flex-wrap justify-center">
-            <div className="w-full px-4 flex justify-center">
-              <div className="relative mx-auto flex items-center justify-center ">
-                <button className="w-36 h-auto shadow  text-center focus:ring-4  ring-opacity-50 ring-yellow-500 -mt-16 rounded-full">
-                  <img className=" object-cover object-center  "
+            <div className="flex justify-center w-full px-4">
+              <div className="relative flex items-center justify-center mx-auto ">
+                <button className="h-auto -mt-16 text-center rounded-full shadow w-36 focus:ring-4 ring-opacity-50 ring-yellow-500">
+                  <img className="object-cover object-center rounded-full border-5"
                     src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&w=244&q=144"
                     alt="" srcSet="" />
                 </button>
               </div>
             </div>
-            <div className="w-full px-4 text-center mt-20">
-              <div className="flex justify-center py-4 lg:pt-4 pt-8">
-                <div className="mr-4 p-3 text-center">
-                  <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
+            <div className="w-full px-4 mt-20 text-center">
+              <div className="flex justify-center py-4 pt-8 lg:pt-4">
+                <div className="p-3 mr-4 text-center">
+                  <span className="block text-xl font-bold tracking-wide uppercase text-blueGray-600">
                     22
                   </span>
                   <span className="text-sm text-blueGray-400">Friends</span>
                 </div>
-                <div className="mr-4 p-3 text-center">
-                  <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
+                <div className="p-3 mr-4 text-center">
+                  <span className="block text-xl font-bold tracking-wide uppercase text-blueGray-600">
                     10
                   </span>
                   <span className="text-sm text-blueGray-400">Photos</span>
                 </div>
-                <div className="lg:mr-4 p-3 text-center">
-                  <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
+                <div className="p-3 text-center lg:mr-4">
+                  <span className="block text-xl font-bold tracking-wide uppercase text-blueGray-600">
                     89
                   </span>
                   <span className="text-sm text-blueGray-400">Comments</span>
@@ -40,26 +40,26 @@ export default function CardProfile() {
               </div>
             </div>
           </div>
-          <div className="text-center mt-12">
-            <h3 className="text-xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
+          <div className="mt-12 text-center">
+            <h3 className="mb-2 text-xl font-semibold leading-normal text-blueGray-700">
               Jenna Stones
             </h3>
-            <div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
-              <i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"></i>{" "}
+            <div className="mt-0 mb-2 text-sm font-bold leading-normal uppercase text-blueGray-400">
+              <i className="mr-2 text-lg fas fa-map-marker-alt text-blueGray-400"></i>{" "}
               Los Angeles, California
             </div>
-            <div className="mb-2 text-blueGray-600 mt-10">
-              <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>
+            <div className="mt-10 mb-2 text-blueGray-600">
+              <i className="mr-2 text-lg fas fa-briefcase text-blueGray-400"></i>
               Solution Manager - Creative Tim Officer
             </div>
             <div className="mb-2 text-blueGray-600">
-              <i className="fas fa-university mr-2 text-lg text-blueGray-400"></i>
+              <i className="mr-2 text-lg fas fa-university text-blueGray-400"></i>
               University of Computer Science
             </div>
           </div>
-          <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
+          <div className="py-10 mt-10 text-center border-t border-blueGray-200">
             <div className="flex flex-wrap justify-center">
-              <div className="w-full lg:w-9/12 px-4">
+              <div className="w-full px-4 lg:w-9/12">
                 <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
                   An artist of considerable range, Jenna the name taken by
                   Melbourne-raised, Brooklyn-based Nick Murphy writes, performs

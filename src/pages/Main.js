@@ -10,6 +10,7 @@ const Main = () => {
     return (
         <BrowserRouter>
             <Layout>
+                <Route exact path="/" component={Home} />
                 <Route exact path="/dashboard" component={Home} />
                 <Route path="/dashboard/extra/colors" component={Colors} />
                 <Route path="/dashboard/extra/settings" component={Settings} />

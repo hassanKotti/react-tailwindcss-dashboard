@@ -5,7 +5,7 @@ const Navbar = ({show, setShow}) => {
     const [openProfileMenu, setOpenProfileMenu] = useState(false);
     return (
 
-        <header className="px-4 py-2 bg-white dark:bg-shark-700 border-b border-shark-100 dark:border-shark-600">
+        <header className="px-4 py-2 bg-white border-b dark:bg-shark-700 border-shark-100 dark:border-shark-600">
             <div className="flex items-center justify-between h-16">
                 <div className="flex">
                     <button className="text-shark-500 hover:text-shark-600 lg:hidden" aria-controls="sidebar"
@@ -23,7 +23,7 @@ const Navbar = ({show, setShow}) => {
                     <div className="flex items-center justify-center space-x-2">
                         <div className="flex items-center justify-center space-x-4">
                             <button
-                                className="flex items-center justify-center w-8 h-8 ml-3 transition duration-150 bg-shark-100 rounded-full hover:bg-shark-200 false dark:bg-shark-500">
+                                className="flex items-center justify-center w-8 h-8 ml-3 transition duration-150 rounded-full bg-shark-100 hover:bg-shark-200 false dark:bg-shark-500">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-shark-500 dark:text-shark-300"
                                     viewBox="0 0 20 20" fill="currentColor">
                                     <path fillRule="evenodd"
@@ -33,7 +33,7 @@ const Navbar = ({show, setShow}) => {
                             </button>
 
                             <button
-                                className="flex items-center justify-center w-8 h-8 ml-3 transition duration-150 bg-shark-100 rounded-full hover:bg-shark-200 false dark:bg-shark-500  ">
+                                className="flex items-center justify-center w-8 h-8 ml-3 transition duration-150 rounded-full bg-shark-100 hover:bg-shark-200 false dark:bg-shark-500 ">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-shark-500 dark:text-shark-300 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                                 </svg>
@@ -41,7 +41,7 @@ const Navbar = ({show, setShow}) => {
                             </button>
 
                             <button
-                                className="relative flex items-center justify-center w-8 h-8 ml-3 transition duration-150 bg-shark-100 rounded-full hover:bg-shark-200 false dark:bg-shark-500">
+                                className="relative flex items-center justify-center w-8 h-8 ml-3 transition duration-150 rounded-full bg-shark-100 hover:bg-shark-200 false dark:bg-shark-500">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-shark-500 dark:text-shark-300"
                                     viewBox="0 0 20 20" fill="currentColor">
                                     <path fillRule="evenodd"
@@ -58,8 +58,8 @@ const Navbar = ({show, setShow}) => {
                         <div>
                             <div className="ml-2 hover:bg-shark-100 dark:bg-shark-700 dark:hover:bg-shark-600" >
                                 <button className="flex items-center px-2 py-2" onClick={() => setOpenProfileMenu(!openProfileMenu)}>
-                                    <img className="w-10 h-10 rounded-full" className="w-10 h-10 ml-2 rounded-full"
-                                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=3&w=144&q=144"
+                                    <img className="w-10 h-10 rounded-full" 
+                                        src="https://avatars.githubusercontent.com/u/23038382?v=4"
                                         alt="" srcSet="" />
                                     <span
                                         className="hidden px-3 py-2 text-sm font-medium tracking-tight text-shark-500 dark:text-shark-300 lg:block">
@@ -78,7 +78,7 @@ const Navbar = ({show, setShow}) => {
                                 className={`${openProfileMenu ? '' : 'hidden'} absolute z-40 w-40 mt-1 overflow-hidden bg-white dark:bg-shark-700 border border-shark-100 dark:border-shark-600 divide-shark-300 rounded shadow-lg right-2 divide-y-1 divide-solid `}>
                                 <ul className="w-40">
                                     <li
-                                        className="flex items-center px-4 py-3 space-x-2 text-shark-500 transition duration-200 ease-in-out hover:bg-green-600 hover:text-white dark:hover:text-shark-300 dark:text-shark-300">
+                                        className="flex items-center px-4 py-3 space-x-2 transition duration-200 ease-in-out text-shark-500 hover:bg-green-600 hover:text-white dark:hover:text-shark-300 dark:text-shark-300">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5"
                                             viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd"
@@ -89,7 +89,7 @@ const Navbar = ({show, setShow}) => {
                                             Profile</a>
                                     </li>
                                     <li
-                                        className="flex items-center px-4 py-3 space-x-2 text-shark-500 transition duration-200 ease-in-out hover:bg-green-500 hover:text-white dark:hover:text-shark-300 dark:text-shark-300">
+                                        className="flex items-center px-4 py-3 space-x-2 transition duration-200 ease-in-out text-shark-500 hover:bg-green-500 hover:text-white dark:hover:text-shark-300 dark:text-shark-300">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5"
                                             viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd"
@@ -100,7 +100,7 @@ const Navbar = ({show, setShow}) => {
                                             Account</a>
                                     </li>
                                     <li
-                                        className="flex items-center px-4 py-3 space-x-2 text-shark-500 transition duration-200 ease-in-out hover:bg-green-500 hover:text-white dark:hover:text-shark-300 dark:text-shark-300">
+                                        className="flex items-center px-4 py-3 space-x-2 transition duration-200 ease-in-out text-shark-500 hover:bg-green-500 hover:text-white dark:hover:text-shark-300 dark:text-shark-300">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5"
                                             viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd"

@@ -12,7 +12,7 @@ export default function CardProfile() {
               <div className="relative flex items-center justify-center mx-auto ">
                 <button className="h-auto -mt-16 text-center rounded-full shadow w-36 focus:ring-4 ring-opacity-50 ring-yellow-500">
                   <img className="object-cover object-center rounded-full border-5"
-                    src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&w=244&q=144"
+                    src="https://avatars.githubusercontent.com/u/23038382?v=4"
                     alt="" srcSet="" />
                 </button>
               </div>
